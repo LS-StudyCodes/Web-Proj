@@ -1,0 +1,32 @@
+  .home {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .home h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    width: 300px; 
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%; 
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }

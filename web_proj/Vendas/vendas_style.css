@@ -1,0 +1,89 @@
+.vendas-pagina{
+    padding: 80px 0;
+}
+
+.vendas-conteudo{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.vendas-imagem{
+    flex: 1;
+}
+
+.vendas-form{
+    flex: 1;
+}
+
+.vendas-imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.vendas-detalhes{
+    flex: 1;
+}
+
+.vendas-detalhes h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.vendas-detalhes p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #313159;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px; 
+}
+
+.container-contato {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+ .vendas-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #212121;
+}
+  
+.form-group {
+    margin-bottom: 20px;
+}
+  
+ .vendas-form label {
+    display: block;
+    margin-bottom: 5px;
+    color:#313159;
+}
+  
+.vendas-form input,textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+ .vendas-form button[type="submit"] {
+    background-color:#313159;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

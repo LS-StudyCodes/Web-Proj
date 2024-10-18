@@ -1,0 +1,164 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; 
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+  }
+  
+  .container-header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo {
+    float: none;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none; 
+    color: #333;
+  }
+  
+  .logo img {
+    max-height: 40px;
+  }
+  
+  nav {
+    float: none;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown .submenu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .submenu {
+    display: block;
+  }
+  
+  .dropdown .submenu li {
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .dropdown .submenu li:hover{
+    background-color: #d1d1d6;
+  }
+  
+  .header-esquerda { 
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+  }
+  
+  .empresa-name { 
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .header-center { 
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  .header-center ul {
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .header-direita {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+  }
+  
+  .header-direita a {
+    margin-left: 20px;
+  }
+  
+  .btn-login {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #313159;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none; 
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footer-column {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  
+  .column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .column a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 30px;
+  }

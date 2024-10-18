@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+    <link rel="stylesheet" href="../generic_styles.css">
+    <link rel="stylesheet" href="vendas_style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container-header">
+          <div class="header-esquerda"> 
+            <a href="../Home/Home.html" class="logo">
+              <img src="../images/polar-bear_12388178.png" alt="Logo"> 
+            </a>
+            <span class="empresa-name">Urso Polar</span> 
+          </div>
+          <nav class="header-center">
+            <ul>
+              <li><a href="../Home/Home.html">Home</a></li>
+              <li class="dropdown">
+                <a href="../Produtos/Produtos.html">Produtos</a>
+                <ul class="submenu">
+                  <li><a href="../Produtos/produto1.html">Roupas de neve</a></li>
+                  <li><a href="../Produtos/produto2.html">Brinquedos</a></li>
+                  <li><a href="../Produtos/produto3.html">Snowmobils</a></li>
+                </ul>
+              </li>
+              <li><a href="../Servicos/Servicos.html">Serviços</a></li>
+              <li><a href="Vendas.html">Vendas</a></li>
+            </ul>
+          </nav>
+          <div class="header-direita">
+            <a href="../Login/Login.html" class="btn-login">Login</a>
+            <a href="../Cadastro/Cadastro.html">Signup</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="vendas-pagina">
+        <div class="container">
+          <div class="vendas-conteudo">
+            <div class="vendas-detalhes"> 
+              <h2>Nos envie uma mensagem</h2>
+              <p>Envie uma mensagem para nosso time de vendas para realizar o orçamento do seu pedido. Iremos te atender da melhor maneira possível!</p>
+              <div class="vendas-imagem">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYCd2_e8oeH9n9oZamvoUjpzLHFSn0E6I36g&s" alt="Serviço 1">
+            </div>
+          </div>
+            <div class="vendas-form">
+              <div class="container-contato">
+                <h2>Entre em Contato</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+          
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+          
+                    <input type="tel" id="telefone" name="telefone">
+                  </div>
+                  <div class="form-group">
+                    <label for="descricao">Descrição:</label>
+          
+                    <textarea id="descricao" name="descricao" rows="5"></textarea>
+                  </div>
+                  <button type="submit">Enviar mensagem</button>
+                </form>
+              </div>
+            </div>
+            
+        </div>
+        </div>
+
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="footer-column">
+            <div class="column">
+              <h3>Empresa</h3>
+              <ul>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Contate-nos</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <h3>Desenvolvedores</h3>
+              <ul>
+                <li><a href="#">Lucas S</a></li>
+                <li><a href="#">Raniere T</a></li>
+                <li><a href="#">Ludmila A</a></li>
+              </ul>
+            </div>
+            <div class="column">
+              <h3>Se inscreva em nosso Newslatter</h3>
+              <form>
+                <input type="email" placeholder="Seu endereço de email" required>
+                <button type="submit">Inscrever-se</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <script src="../generic_script.js"></script>
+      <script src="vendas_script.js"></script>
+    
+</body>
+</html>
